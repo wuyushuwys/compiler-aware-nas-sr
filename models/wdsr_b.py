@@ -12,7 +12,7 @@ import torch.nn.functional as F
 from models.ops import BinaryConv2d, rounding
 
 try:
-    from speed_models import PseudoLength, BlockBSpeedEstimator
+    from speed_models import BlockBSpeedEstimator
 except ImportError:
     pass
 
