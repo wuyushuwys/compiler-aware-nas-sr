@@ -5,7 +5,7 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3
 
 model_type='NAS_MODEL'  # NAS_MODEL / BASIC_MODEL
 
-speed_target=100
+speed_target=100    # target latency in ms
 
 width_epochs=10     # width only search epoch
 epochs=20           # width+depth search epoch
