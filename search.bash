@@ -7,9 +7,9 @@ model_type='NAS_MODEL'  # NAS_MODEL / BASIC_MODEL
 
 speed_target=100
 
-epochs=10
-width_epochs=10
-finetune_epochs=30
+width_epochs=10     # width only search epoch
+epochs=20           # width+depth search epoch
+finetune_epochs=30  # fine-tune epoch
 num_patches=1000    # default 1000
 train_batch_size=16 # default 16
 lr_patch_size=48    # default 48
