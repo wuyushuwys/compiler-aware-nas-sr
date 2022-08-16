@@ -1,6 +1,6 @@
 # [ECCV2022] Compiler-Aware Neural Architecture Search for On-Mobile Real-time Super-Resolution
 
-Pytorch Implementation of  [Compiler-Aware Neural Architecture Search for On-Mobile Real-time Super-Resolution](https://arxiv.org/abs/2207.12577)
+Pytorch Implementation of Paper [[Arxiv]](https://arxiv.org/abs/2207.12577)
 
 
 ## Usage
