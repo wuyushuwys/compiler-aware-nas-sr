@@ -8,8 +8,9 @@ Pytorch Implementation of  [Compiler-Aware Neural Architecture Search for On-Mob
 ### Dependencies
 
 ```bash
-conda install -y pytorch==1.9.1 torchvision cudatoolkit=11.1 -c pytorch -c conda-forge -c nvidia
-conda install -y tensorboard h5py scikit-image
+conda create -n sr-nas python=3.8
+conda activate sr-nas
+conda install -y pytorch==1.9.1 torchvision==0.10.1 cudatoolkit=10.2 tensorboard h5py scikit-image -c pytorch
 ```
 
 ### Train
