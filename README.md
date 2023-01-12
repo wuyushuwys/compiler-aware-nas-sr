@@ -69,13 +69,11 @@ Download and organize data like:
 If you find this code useful for your research, please cite our paper
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2207.12577,
-
-  author = {Wu, Yushu and Gong, Yifan and Zhao, Pu and Li, Yanyu and Zhan, Zheng and Niu, Wei and Tang, Hao and Qin, Minghai and Ren, Bin and Wang, Yanzhi},
-  title = {Compiler-Aware Neural Architecture Search for On-Mobile Real-time Super-Resolution},
-  doi = {10.48550/ARXIV.2207.12577},
-  url = {https://arxiv.org/abs/2207.12577},
-  publisher = {arXiv},
-  year = {2022},
+@inproceedings{wu2022compiler,
+  title={Compiler-Aware Neural Architecture Search for On-Mobile Real-time Super-Resolution},
+  author={Wu, Yushu and Gong, Yifan and Zhao, Pu and Li, Yanyu and Zhan, Zheng and Niu, Wei and Tang, Hao and Qin, Minghai and Ren, Bin and Wang, Yanzhi},
+  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part XIX},
+  pages={92--111},
+  year={2022}
 }
 ```
